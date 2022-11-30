@@ -1,0 +1,62 @@
+.groceryList{
+    padding-inline-start: 0px !important;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px;
+}
+.groceryPage{
+    margin-bottom:100px;
+}
+.groceryList li{
+    list-style-type: none;
+    list-style: none;
+    text-align: left;
+    padding: 30px 20px 30px 20px;
+    border-radius: 4px;
+    background-color: #fff;
+    margin-bottom: 10px !important;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+.groceryButtons{
+    display: flex;
+    flex-flow: row;
+    margin: 10px;
+}
+.delete{
+    background-color:#EE6352;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    width: 50%;
+}
+.purchase{
+    background: #7FB069;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 10px;
+    width: 50%;
+}
+.itemQuantity{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    margin-top: -20px;
+}
